@@ -1,0 +1,17 @@
+Q. 4.2.4 Describe what happens if you apply binary search to an unordered array.
+Why shouldn't you check whether the array is sorted before each call to binary search?
+Could you check that the elements binary search examines are in ascending order? 
+If so, would that check be effective?
+
+A. Binary search does not work. The algorithm will take the mid element but 
+it will choose the upper or lower half of the array base on random value, 
+hence the selection of a half and the posibility of getting a macht (if any) 
+work base on randoness. It is not possible to use or implement Binary Search 
+on unsorted arrays or lists, because, the repeated targeting of the mid element
+of one half depends on the sorted order of data structure.
+
+Checking if the array is already sorted is necessary to ensure that the binary 
+search will work properly; the best way to do this is linearly checking the 
+array and compare if each value is lower than the next one.
+
+Also doing a sorting before the binary search will do the job.

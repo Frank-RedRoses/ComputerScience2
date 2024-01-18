@@ -1,0 +1,104 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "DeDup",
+            "request": "launch",
+            "mainClass": "week1_search_sort.optional_enrichment.DeDup",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": "< ${workspaceFolder}/resources/in/sort/stringsRepeated.txt"
+        },
+        {
+            "type": "java",
+            "name": "numberGenerator",
+            "request": "launch",
+            "mainClass": "week1_search_sort.optional_enrichment.numberGenerator",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": "64 > ${workspaceFolder}/resources/out/binarysearch/numbers64.txt"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "week1_search_sort.optional_enrichment.BinarySearch",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": [
+                "${workspaceFolder}/resources/in/binarysearch/numbers16.txt",
+                "<",
+                "${workspaceFolder}/resources/out/binarysearch/numbers64.txt"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "16"
+        },
+        {
+            "type": "java",
+            "name": "TestBinarySearch",
+            "request": "launch",
+            "mainClass": "week1_search_sort.TestBinarySearch",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": "< ${workspaceFolder}/resources/out/random_strings80000.txt"
+        },
+        {
+            "type": "java",
+            "name": "LRS",
+            "request": "launch",
+            "mainClass": "week1_search_sort.LRS",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": "< ${workspaceFolder}/resources/in/tiny.txt"
+        },
+        {
+            "type": "java",
+            "name": "Merge",
+            "request": "launch",
+            "mainClass": "week1_search_sort.Merge",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": "< ${workspaceFolder}/resources/in/names16.txt"
+        },
+        {
+            "type": "java",
+            "name": "Insertion",
+            "request": "launch",
+            "mainClass": "week1_search_sort.Insertion",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": "< ${workspaceFolder}/resources/in/names16.txt"
+        },
+        {
+            "type": "java",
+            "name": "TestSS",
+            "request": "launch",
+            "mainClass": "week1_search_sort.TestSS",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": "< ${workspaceFolder}/resources/out/random_strings80000.txt"
+        },
+        {
+            "type": "java",
+            "name": "Generator",
+            "request": "launch",
+            "mainClass": "week1_search_sort.Generator",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": [
+                "10000",
+                "10",
+                "abcdefghijklmnopqrstuvwxyz",
+                ">",
+                "${workspaceFolder}/resources/out/random_strings10000.txt"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "WhiteList",
+            "request": "launch",
+            "mainClass": "week1_search_sort.WhiteList",
+            "projectName": "ComputerScience2_4762d5e4"
+        }
+    ]
+}
