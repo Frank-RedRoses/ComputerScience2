@@ -6,6 +6,58 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinkListWithRemoval",
+            "request": "launch",
+            "mainClass": "week2_stacks_queues.optional_enrichment.LinkListWithRemoval",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": "< ${workspaceFolder}/resources/in/names16.txt"
+        },
+        {
+            "type": "java",
+            "name": "InfixToPostfix",
+            "request": "launch",
+            "mainClass": "week2_stacks_queues.optional_enrichment.InfixToPostfix",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": [
+                "<",
+                "${workspaceFolder}/resources/in/infixExpr.txt",
+                ">",
+                "${workspaceFolder}/resources/out/postfix.txt"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Parentheses",
+            "request": "launch",
+            "mainClass": "week2_stacks_queues.optional_enrichment.Parentheses",
+            "projectName": "ComputerScience2_4762d5e4"
+        },
+        {
+            "type": "java",
+            "name": "Stack",
+            "request": "launch",
+            "mainClass": "week2_stacks_queues.Stack",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": "< ${workspaceFolder}/resources/in/tobe.txt"
+        },
+        {
+            "type": "java",
+            "name": "StrawmanStack",
+            "request": "launch",
+            "mainClass": "week2_stacks_queues.StrawmanStack",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": "20 < ${workspaceFolder}/resources/in/tobe.txt"
+        },
+        {
+            "type": "java",
+            "name": "Postfix",
+            "request": "launch",
+            "mainClass": "week2_stacks_queues.Postfix",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": "< ${workspaceFolder}/resources/out/postfix.txt"
+        },
+        {
+            "type": "java",
             "name": "DeDup",
             "request": "launch",
             "mainClass": "week1_search_sort.optional_enrichment.DeDup",
