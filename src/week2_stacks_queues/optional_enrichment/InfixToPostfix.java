@@ -2,7 +2,7 @@ package week2_stacks_queues.optional_enrichment;
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
-import week2_stacks_queues.Stack;
+import week2_stacks_queues.GenericStack;
 
 // InfixToPostfix converts an arithmetic expression from infix to postfix.
 // Ex. 
@@ -12,7 +12,7 @@ public class InfixToPostfix {
 
     public static void main(String[] args) {
         String postfix = "";                            // the postfix expression
-        Stack<String> operand = new Stack<String>();    // Operands in LIFO order
+        GenericStack<String> operand = new GenericStack<String>();    // Operands in LIFO order
 
         while (!StdIn.isEmpty()) {
             String token = StdIn.readString();          // read the infix espression, spaces are used to separate tokens.

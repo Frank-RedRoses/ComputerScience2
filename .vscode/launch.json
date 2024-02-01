@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BST",
+            "request": "launch",
+            "mainClass": "week3_symbol_tables.BST",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": "< ${workspaceFolder}/resources/in/searchtrees/tale.txt"
+        },
+        {
+            "type": "java",
+            "name": "BSTMod",
+            "request": "launch",
+            "mainClass": "week3_symbol_tables.optional_enrichment.BSTMod",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": "< ${workspaceFolder}/resources/in/searchtrees/tale.txt"
+        },
+        {
+            "type": "java",
+            "name": "KeyGenerator",
+            "request": "launch",
+            "mainClass": "week3_symbol_tables.optional_enrichment.KeyGenerator",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": [
+                "ACGT",
+                "3",
+                "40000"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Lookup",
+            "request": "launch",
+            "mainClass": "week3_symbol_tables.optional_enrichment.Lookup",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": [
+                "${workspaceFolder}/resources/in/searchtrees/amino.csv",
+                "0",
+                "3",
+                "<",
+                "${workspaceFolder}/resources/in/searchtrees/rdm_genes80000.txt"
+            ]
+        },
+        {
+            "type": "java",
             "name": "LinkListWithRemoval",
             "request": "launch",
             "mainClass": "week2_stacks_queues.optional_enrichment.LinkListWithRemoval",

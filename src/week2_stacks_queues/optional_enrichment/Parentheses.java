@@ -2,13 +2,13 @@ package week2_stacks_queues.optional_enrichment;
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
-import week2_stacks_queues.Stack;
+import week2_stacks_queues.GenericStack;
 
 public class Parentheses {
 
     public static boolean isBalanced(String str) {
         // new Stack
-        Stack<Character> stack = new Stack<Character>();
+        GenericStack<Character> stack = new GenericStack<Character>();
         // empty string
         if (str.equals("") || str == null) 
             return false;
