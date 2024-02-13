@@ -2,8 +2,9 @@ package week3_symbol_tables;
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
+import week4_dfas.BinaryST;
 
-public class BST<Key extends Comparable<Key>, Value> {
+public class BST<Key extends Comparable<Key>, Value> implements BinaryST<Key, Value>{
 
     private Node root = null;
     

@@ -6,6 +6,22 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Validate",
+            "request": "launch",
+            "mainClass": "week4_dfas.Validate",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": "\"C.{2,4}C...[LIVMFYWC].{8}H.{3,5}H\""
+        },
+        {
+            "type": "java",
+            "name": "DFA",
+            "request": "launch",
+            "mainClass": "week4_dfas.DFA",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": "${workspaceFolder}/resources/in/DFA/b3.txt"
+        },
+        {
+            "type": "java",
             "name": "BST",
             "request": "launch",
             "mainClass": "week3_symbol_tables.BST",
