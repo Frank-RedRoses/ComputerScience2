@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TuringMachine",
+            "request": "launch",
+            "mainClass": "week5_tms.TuringMachine",
+            "projectName": "ComputerScience2_4762d5e4",
+            "args": "${workspaceFolder}/resources/in/TM/binIncrement.txt"
+        },
+        {
+            "type": "java",
             "name": "Validate",
             "request": "launch",
             "mainClass": "week4_dfas.Validate",
